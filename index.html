@@ -1,99 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Pessoal</title>
+    <title>Wellington Gomes para Prefeito de Ribeirão</title>
     <style>
+        /* Aqui você pode adicionar estilos CSS básicos */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background: radial-gradient(circle, white, #90EE90, #32CD32);
         }
-
-        .container {
-            max-width: 960px;
-            margin: 20px auto;
+        .header {
+            background-color: #ffffff;
             padding: 20px;
-            background-color: #fff;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
             text-align: center;
         }
-
-        nav ul li {
-            display: inline-block;
-            margin-right: 20px;
+        .nav {
+            background-color: #32CD32;
+            padding: 10px;
         }
-
-        nav ul li a {
+        .nav a {
+            color: white;
             text-decoration: none;
-            color: #333;
+            padding: 10px;
         }
-
-        section {
-            padding: 20px 0;
+        .main-content {
+            padding: 20px;
         }
-
-        footer {
+        .footer {
+            background-color: #32CD32;
+            color: white;
             text-align: center;
-            margin-top: 20px;
-            padding: 10px 0;
-            background-color: #333;
-            color: #fff;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
-
 <body>
-    <div class="container">
-        <header>
-            <h1>Seu Nome</h1>
-            <p>Desenvolvedor Front-end</p>
-        </header>
-        <nav>
+    <header class="header">
+        <h1>Wellington Gomes</h1>
+        <p>Candidato a Prefeito de Ribeirão</p>
+        <div class="party-number">44</div>
+    </header>
+
+    <nav class="nav">
+        <a href="#home">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#propostas">Propostas</a>
+        <a href="#noticias">Notícias</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main class="main-content">
+        <section id="home">
+            <h2>Bora mu<span class="hand-icon">👊</span>dar Ribeirão</h2>
+            <p>Junte-se a nós nesta jornada por uma Ribeirão melhor!</p>
+        </section>
+
+        <section id="sobre">
+            <h2>Conheça Wellington Gomes</h2>
+            <p>Breve biografia e visão para Ribeirão...</p>
+        </section>
+
+        <section id="propostas">
+            <h2>Nossas Propostas</h2>
             <ul>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#contact">Contato</a></li>
+                <li>Proposta 1</li>
+                <li>Proposta 2</li>
+                <li>Proposta 3</li>
             </ul>
-        </nav>
-        <section id="about">
-            <h2>Sobre Mim</h2>
-            <p>Texto sobre você e suas habilidades como desenvolvedor front-end.</p>
         </section>
-        <section id="projects">
-            <h2>Projetos</h2>
-            <div>
-                <h3>Projeto 1</h3>
-                <p>Descrição do projeto 1.</p>
-            </div>
-            <div>
-                <h3>Projeto 2</h3>
-                <p>Descrição do projeto 2.</p>
-            </div>
+
+        <section id="noticias">
+            <h2>Últimas Notícias</h2>
+            <!-- Aqui você pode adicionar um feed de notícias dinâmico -->
         </section>
-        <section id="contact">
-            <h2>Contato</h2>
-            <p>Email: seuemail@gmail.com</p>
-            <p>Telefone: (xx) xxxxx-xxxx</p>
+
+        <section id="instagram-feed">
+            <h2>Siga-nos no Instagram</h2>
+            <!-- Aqui você adicionará o código para integração com o Instagram -->
         </section>
-    </div>
-    <footer>
-        <p>&copy; 2024 Seu Nome</p>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Campanha Wellington Gomes. Todos os direitos reservados.</p>
     </footer>
 </body>
-
 </html>
